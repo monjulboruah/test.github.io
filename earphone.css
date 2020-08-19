@@ -1,0 +1,64 @@
+.menu {
+    margin-bottom: 16px;
+    list-style: none;
+    background-color: #fff;
+    border: 3px solid #eaecef;
+    border-radius: 6px;
+}
+
+.menu-item {
+    position: relative;
+    display: block;
+    padding: 8px 16px;
+    color: #1b1f23;
+    border-bottom: 3px solid #eaecef;
+}
+
+.menu-item:hover{
+	background-color: lightblue;
+}
+
+a {
+    color: #0366d6;
+    text-decoration: none;
+    background-color: initial;
+}
+
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+}
+
+ a:hover{ 
+            text-decoration: none; 
+} 
+
+* {
+    box-sizing: border-box;
+}
+
+.carousel1{
+    max-width: 300px;
+    max-height: 300px;
+
+}
+
+.carousel1 .carousel .item {
+  height: 400px;
+}
+
+.carousel1 .item img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 300px;
+}
+
+h3{
+    color: red;
+}
+
+.fa-amazon{
+    color: yellow;
+    font-size: 22px;
+}
